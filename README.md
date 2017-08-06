@@ -14,14 +14,35 @@ node test.js
 After that you should be able to use the bot in your server as long as this window is open.
 ****
 # Using The Bot
-As of now the bot doesn't do much. The only command is
+## General Use Of The Bot
+This bot mainly functions through use of commands. Commands are used by typing into the discord chat
+<br>
+This is an example of how to use a command.
+```
+!command
+```
+It also doesnt matter where in the message the command is, as long as it is all together.
+<br>
+This means that messages like this will also work
+```
+Hey test-bot run this !command for me please.
+```
+But something like this won't
+```
+!comm and
+```
+****
+## A List Of Commands
+Here's a hopefully full list of commands this bot can use, as well as what they do, and how to use them.<br>
+****
+#### test
+###### How To Use It:
 ```
 !test
 ```
-This command is not case sensitive.
-<br>
-It will reply to the person who sent the message with
+###### What Will Happen:
+The bot will reply with
 ```
-@INSERT_NAME successful
+@MessageSender successful
 ```
 ****
