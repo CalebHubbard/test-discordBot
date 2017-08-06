@@ -20,6 +20,8 @@ As of now the bot doesn't do much. The only command is
 ```
 This command is not case sensitive.
 <br>
+It also doesnt matter where in the message it is, as long as it is all together.
+<br>
 It will reply to the person who sent the message with
 ```
 @INSERT_NAME successful
