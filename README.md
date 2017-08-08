@@ -9,7 +9,7 @@ To add this bot to your server log into discord in your browser, and go to <a hr
 To run the bot open a Command Prompt window, and change directory to where you put these files.
 Then Type
 ```
-node test.js
+node bot.js
 ```
 After that you should be able to use the bot in your server as long as this window is open.
 ****
