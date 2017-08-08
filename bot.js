@@ -32,12 +32,11 @@ function messageContains (OrigMessage, command) {
 	var message = OrigMessage.content.toLowerCase();
 	
 	/*
-	this for statement checks each character in the message
+	This for statement checks each character in the message
 	until it reaches a character that matches the first character in the command.
-	Then it checks to see if the number of characters equal to the number of characters in the commmand
-	from that point are equal to the characters in the command
+	Then it checks to see if the subsequent characters are equal to the command.
+	I did it this way to try to make it run efficiently, and it probably doesn't :D
 	
-	If the second for loop fails, the first one will continue, and if it fails it will return false.
 	This allows there to be characters within the command to be before the command.
 	For example you could have the message "this is a good time! to !test. Don't you think?"
 	*/
