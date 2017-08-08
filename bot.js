@@ -43,10 +43,8 @@ function messageContains (OrigMessage, command) {
 	*/
 	for (var i = 0; i < mLength - cLength + 1; i++){
 		if (message[i] == command[0]) {
-			for (var j = 0; j < cLength; j++) {
-				if (message.slice(i, cLength + 1) == command) {
-					return true;
-				}
+			if (message.slice(i, i + cLength) == command) {
+				return true;
 			}
 		}
 	} return false;
